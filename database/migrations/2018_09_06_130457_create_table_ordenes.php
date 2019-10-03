@@ -1,0 +1,34 @@
+<?php
+
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class CreateTableOrdenes extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('ordenes', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('descripcion');
+            $table->date('fecha');
+            $table->boolean('estatus')->default(0);
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::drop('ordenes');
+    }
+}
+

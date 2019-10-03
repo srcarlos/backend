@@ -1,0 +1,11 @@
+INSERT INTO roles (name, slug, description, level, created_at, updated_at) VALUES ('Super Admin', 'admin.super', 'Super Admin', 1, '2018-11-07 13:13:37', '2018-11-07 17:34:00');
+INSERT INTO roles (name, slug, description, level, created_at, updated_at) VALUES ('User Admin', 'admin.user', 'Can manage users', 1, '2018-11-07 13:13:37', '2018-11-07 13:13:37');
+INSERT INTO roles (name, slug, description, level, created_at, updated_at) VALUES ('Role Admin', 'admin.role', 'Can manage user roles', 1, '2018-11-07 13:13:37', '2018-11-07 13:13:37');
+INSERT INTO roles (name, slug, description, level, created_at, updated_at) VALUES ('Permission Admin', 'admin.permission', 'Can manage permissions', 1, '2018-11-07 13:13:37', '2018-11-07 13:13:37');
+INSERT INTO roles (name, slug, description, level, created_at, updated_at) VALUES ('Ventas', 'ventas', 'Acceso modulo de ventas', 1, '2018-11-07 13:14:39', '2018-11-07 17:43:54');
+INSERT INTO roles (name, slug, description, level, created_at, updated_at) VALUES ('Compras', 'compras', 'Acceso al modulo de compras', 1, '2018-11-07 17:43:00', '2018-11-07 17:47:51');
+INSERT INTO roles (name, slug, description, level, created_at, updated_at) VALUES ('Produccion', 'produccion', 'Acceso al modulo de produccion', 1, '2018-11-07 17:45:51', '2018-11-07 17:51:44');
+INSERT INTO roles (name, slug, description, level, created_at, updated_at) VALUES ('Planificacion', 'planificacion', 'Acceso al modulo de planificacion', 1, '2018-11-07 17:47:12', '2018-11-07 17:47:12');
+INSERT INTO roles (name, slug, description, level, created_at, updated_at) VALUES ('Bodegas', 'bodegas', 'Acceso al modulo de bodegas', 1, '2018-11-07 17:51:04', '2018-11-07 17:51:04');
+INSERT INTO roles (name, slug, description, level, created_at, updated_at) VALUES ('Logistica', 'logistica', 'Acceso al modulo de logistica', 1, '2018-11-07 17:53:10', '2018-11-07 17:53:10');
+INSERT INTO roles (name, slug, description, level, created_at, updated_at) VALUES ('Inteligencia de negocios', 'inteligencia', 'Acceso al modulo de inteligencia de negocios', 1, '2018-11-07 17:54:09', '2018-11-07 17:54:09');
